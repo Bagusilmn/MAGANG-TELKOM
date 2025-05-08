@@ -8,8 +8,6 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 import streamlit as st
 
-# Set API Key
-# os.environ["OPENAI_API_KEY"] = "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"
 
 @st.cache_resource
 def load_chatbot():
